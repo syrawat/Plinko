@@ -5,12 +5,12 @@ var Engine = Matter.Engine,
 var divisions = []
 var particles = [];
 var plinkos = [];
-
 var divisionHeight=300;
 var score =0;
 var particle;
 var gameState ="start";
 var count = 0;
+
 function setup() {
   createCanvas(800, 800);
   engine = Engine.create();
